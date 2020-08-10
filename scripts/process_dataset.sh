@@ -1,0 +1,1 @@
+python tools/obtained_edge_feat.py --dataset $1 --imdb $2

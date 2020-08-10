@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=$1 python tools/run.py --tasks vqa --datasets crn_stvqa --model crn --config configs/vqa/crn_stvqa/crn_task3.yml --save_dir save/$2 training_parameters.data_parallel True
