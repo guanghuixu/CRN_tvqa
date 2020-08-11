@@ -31,8 +31,8 @@ python setup.py build develop
 cd ~/CRN_tvqa
 
 # Download dataset annotations
-wget [data.tar.xz]  
-tar xf data.tar.gz
+wget https://github.com/guanghuixu/CRN_tvqa/releases/download/data/data.tar.xz  
+tar xf data.tar.xz
 
 cd data
 
@@ -78,7 +78,7 @@ bash scripts/val_textvqa.sh 0,1 textvqa_debug save/textvqa_debug/crn_textvqa_crn
 
 bash scripts/val_textvqa.sh 0,1 textvqa_debug save/textvqa_debug/crn_textvqa_crn/best.ckpt inference
 ```
-(Note: `--<run_type>` use `inference` instead of `val` to generate the EvalAI prediction files for the TextVQA test set )
+(Note: `--<run_type>` use `inference` instead of `val` to generate the EvalAI prediction files for the test set )
 
 ## Citation
 
