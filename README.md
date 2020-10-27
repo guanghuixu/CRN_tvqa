@@ -13,7 +13,7 @@ Clone this repository, and build it with the following command.
 # activate your own conda environment
 # [Alternative]
 # conda env create -f CRN.yaml
-# conda activate CRN
+# conda activate CRN_env
 
 git clone https://github.com/guanghuixu/CRN_tvqa.git
 cd CRN_tvqa
